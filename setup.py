@@ -4,16 +4,16 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='colorinverter',
-    version='0.0.11',
+    name='colortools',
+    version='0.0.0',
     author='Keine Ahnung',
     author_email='kontakt@keineahnung.eu',
-    description='A small color inverter',
+    description='Some powerfull color tools',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/TheKeineAhnung/color-inverter',
+    url='https://github.com/TheKeineAhnung/colortools',
     project_urls={
-        'Bug Tracker': 'https://github.com/TheKeineAhnung/color-inverter/issues',
+        'Bug Tracker': 'https://github.com/TheKeineAhnung/colortools/issues',
     },
     license='LICENSE',
     classifiers=(
