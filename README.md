@@ -1,1 +1,1 @@
-# color-inverter
+# colorinverter
