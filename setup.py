@@ -4,8 +4,8 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='colortools',
-    version='0.0.0',
+    name='colortoolskeineahnung',
+    version='0.0.1',
     author='Keine Ahnung',
     author_email='kontakt@keineahnung.eu',
     description='Some powerfull color tools',
