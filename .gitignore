@@ -1,4 +1,4 @@
 /dist
-/colorinverter.egg-info
 /.idea
 __pycache__
+/colortools.egg-info
