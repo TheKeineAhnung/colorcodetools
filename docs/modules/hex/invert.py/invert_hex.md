@@ -22,7 +22,7 @@
      - `example: #f0f0f0`
 
 2. Optional parameters
-   - prefix
+   - prefix  
      Decide if the inverted hexcode should have a '#' prefix.
      - `type: boolean`
      - `default: True`
