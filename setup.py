@@ -4,16 +4,16 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name='colortools',
+    name='colorcodes',
     version='0.0.1',
     author='Keine Ahnung',
     author_email='kontakt@keineahnung.eu',
     description='Some powerfull color tools',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/TheKeineAhnung/colortools',
+    url='https://github.com/TheKeineAhnung/colorcodes',
     project_urls={
-        'Bug Tracker': 'https://github.com/TheKeineAhnung/colortools/issues',
+        'Bug Tracker': 'https://github.com/TheKeineAhnung/colorcodes/issues',
     },
     license='LICENSE',
     classifiers=(
