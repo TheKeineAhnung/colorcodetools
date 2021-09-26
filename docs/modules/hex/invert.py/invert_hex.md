@@ -25,3 +25,7 @@
      Decide if the inverted hexcode should have a '#' prefix.
      - `type: boolean`
      - `default: True`
+
+## Return value
+
+- `type: boolean or string`

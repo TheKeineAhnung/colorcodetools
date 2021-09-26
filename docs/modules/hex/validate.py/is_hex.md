@@ -19,3 +19,7 @@
       Enter hex code which should be checked.
      - `type: string`
      - `default: None`
+
+## Return value
+
+- `type: boolean`
