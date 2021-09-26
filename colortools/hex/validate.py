@@ -1,8 +1,8 @@
 def is_hex(hexcode: str) -> bool:
     if hexcode.startswith('#'):
-        hex_check = hexcode.replace('#', '')
+        hex_check: str = hexcode.replace('#', '')
     else:
-        hex_check = hexcode
+        hex_check: str = hexcode
     if len(hex_check) != 6 and len(hex_check) != 3:
         return False
     for e in list(hex_check):
@@ -12,9 +12,9 @@ def is_hex(hexcode: str) -> bool:
 
 def is_alpha_hex(hexcode: str) -> bool:
     if hexcode.startswith('#'):
-        hex_check = hexcode.replace('#', '')
+        hex_check: str = hexcode.replace('#', '')
     else:
-        hex_check = hexcode
+        hex_check: str = hexcode
     if len(hex_check) != 8:
         return False
     for e in list(hex_check):
