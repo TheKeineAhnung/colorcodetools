@@ -14,8 +14,11 @@ def invert_hex(hexcode: str, prefix: bool = True) -> Union[bool, str]:
         inverted_hex: str = '#'
     else:
         inverted_hex: str = ''
-
+    count: int = 0
     for e in list(hexcode):
-        inverted_hex_character = config_data[e]
-        inverted_hex += inverted_hex_character
+        if count < 6:
+            inverted_hex += config_data[e]
+            count += 1
+        else:
+            inverted_hex += e
     return inverted_hex

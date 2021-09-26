@@ -16,7 +16,7 @@
 1. Required parameters:
 
    - hexcode:  
-      Enter hex code which should be inverted.
+      Enter hex code which should be inverted. Supports also hex codes with alpha values.
      - `type: string`
      - `default: None`
 
