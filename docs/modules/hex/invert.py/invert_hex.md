@@ -4,7 +4,7 @@
 
 1. ```python
    from colortools.hex.invert import invert_hex
-   is_hex('hexcode')
+   invert_hex('hexcode')
    ```
 2. ```python
    import colortools
