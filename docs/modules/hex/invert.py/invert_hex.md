@@ -19,6 +19,7 @@
       Enter hex code which should be inverted. Supports also hex codes with alpha values.
      - `type: string`
      - `default: None`
+     - `example: #f0f0f0`
 
 2. Optional parameters
    - prefix
