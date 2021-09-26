@@ -17,7 +17,7 @@ def invert_hex(hexcode: str, prefix: bool = True) -> Union[bool, str]:
     count: int = 0
     for e in list(hexcode):
         if count < 6:
-            inverted_hex += config_data[e]
+            inverted_hex += config_data[e.lower()]
             count += 1
         else:
             inverted_hex += e
