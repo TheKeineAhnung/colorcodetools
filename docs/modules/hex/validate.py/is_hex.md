@@ -3,11 +3,11 @@
 ## How to use
 
 1. ```python
-   from colortools.hex.validate import is_hex
+   from colorcodetools.hex.validate import is_hex
    is_hex('hexcode')
    ```
 2. ```python
-   import colortools
+   import colorcodetools
    colortools.hex.validate.is_hex('hexcode')
    ```
 

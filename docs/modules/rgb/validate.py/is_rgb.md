@@ -3,11 +3,11 @@
 ## How to use
 
 1. ```python
-   from colortools.rgb.validate import is_rgb
+   from colorcodetools.rgb.validate import is_rgb
    is_rgb('(r, g, b)')
    ```
 2. ```python
-   import colortools
+   import colorcodetools
    colortools.rgb.validate.is_rgb('(r, g, b)')
    ```
 

@@ -3,11 +3,11 @@
 ## How to use
 
 1. ```python
-   from colortools.hex.invert import invert_hex
+   from colorcodetools.hex.invert import invert_hex
    invert_hex('hexcode')
    ```
 2. ```python
-   import colortools
+   import colorcodetools
    colortools.hex.invert.invert_hex('hexcode')
    ```
 

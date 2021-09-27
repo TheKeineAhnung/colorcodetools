@@ -3,11 +3,11 @@
 ## How to use
 
 1. ```python
-   from colortools.rgb.invert import invert_rgb
+   from colorcodetools.rgb.invert import invert_rgb
    invert_rgb('(r, g, b)')
    ```
 2. ```python
-   import colortools
+   import colorcodetools
    colortools.rgb.invert.invert_rgb('(r, g, b)')
    ```
 
