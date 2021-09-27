@@ -8,7 +8,7 @@ setuptools.setup(
     version='0.0.1',
     author='Keine Ahnung',
     author_email='kontakt@keineahnung.eu',
-    description='Some powerfull color tools',
+    description='Some powerful color tools',
     long_description=long_description,
     long_description_content_type='text/markdown',
     url='https://github.com/TheKeineAhnung/colorcodes',
