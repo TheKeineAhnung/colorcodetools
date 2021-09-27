@@ -1,14 +1,12 @@
-from validate import is_rgb
-import json
+from colorcodetools.rgb.validate import is_rgb
 from typing import Union
+from colorcodetools.rgb.config import config
 
 def invert_rgb(rgb: str, a: float = 1.0, prefix: bool = True) -> Union[bool, str]:
     check_rgb: bool = is_rgb(rgb, a)
     if not check_rgb:
         return False
-    with open('config.json', 'r') as configFile:
-        config_data = json.load(configFile)
-        configFile.close()
+    config_data = config.config()
     rgb: str = rgb.replace("(", "")
     rgb = rgb.replace(")", "")
     if prefix:
