@@ -6,7 +6,7 @@ def invert_rgb(rgb: str, a: float = 1.0, prefix: bool = True) -> Union[bool, str
     check_rgb: bool = is_rgb(rgb, a)
     if not check_rgb:
         return False
-    config_data = config.config()
+    config_data = config()
     rgb: str = rgb.replace("(", "")
     rgb = rgb.replace(")", "")
     if prefix:
@@ -30,5 +30,3 @@ def invert_rgb(rgb: str, a: float = 1.0, prefix: bool = True) -> Union[bool, str
             inverted_rgb += config_data[e.strip()] + ", "
         inverted_rgb += str(a) + ")"
     return inverted_rgb
-
-print(invert_rgb("(255, 0, 0)", 1.0, prefix=False))
