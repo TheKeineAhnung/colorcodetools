@@ -17,3 +17,9 @@ def is_rgb(rgb: str, a: float = 1.0) -> bool:
     if a > 1.0 or a < 0.0:
         return False
     return True
+
+def is_single_rgb(rgb: int) -> bool:
+    if 255 >= rgb >= 0:
+        return True
+    else:
+        return False
