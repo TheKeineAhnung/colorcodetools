@@ -4,11 +4,11 @@
 
 1. ```python
    from colorcodetools.rgb.validate import is_single_rgb
-   is_single_rgb('(r/g/b)')
+   is_single_rgb(r/g/b)
    ```
 2. ```python
    import colorcodetools
-   colortools.rgb.validate.is_single_rgb('(r/g/b)')
+   colortools.rgb.validate.is_single_rgb(r/g/b)
    ```
 
 ## Parameters
