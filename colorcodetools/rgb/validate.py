@@ -3,7 +3,6 @@ def is_rgb(rgb: str, a: float = 1.0) -> bool:
         rgb_split = rgb.replace("(", "")
         rgb_split = rgb_split.replace(")", "")
         rgb_split = rgb_split.split(",")
-        print(rgb_split)
     except:
         return False
     if len(rgb_split) != 3:
