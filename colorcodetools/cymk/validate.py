@@ -14,10 +14,6 @@ def is_cymk(cymk: str) -> bool:
             return False
     return True
 
-
-print(is_cymk("100/50/-1/54"))
-
-
 def is_single_cymk(cymk: int) -> bool:
     if 100 >= cymk >= 0:
         return True
