@@ -8,7 +8,7 @@
    ```
 2. ```python
    import colorcodetools
-   colortools.cmyk.validate.is_cmyk('c/y/m/k')
+   colorcodetools.cmyk.validate.is_cmyk('c/y/m/k')
    ```
 
 ## Parameters

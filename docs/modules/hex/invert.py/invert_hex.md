@@ -8,7 +8,7 @@
    ```
 2. ```python
    import colorcodetools
-   colortools.hex.invert.invert_hex('hexcode')
+   colorcodetools.hex.invert.invert_hex('hexcode')
    ```
 
 ## Parameters

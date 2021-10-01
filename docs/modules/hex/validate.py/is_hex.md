@@ -8,7 +8,7 @@
    ```
 2. ```python
    import colorcodetools
-   colortools.hex.validate.is_hex('hexcode')
+   colorcodetools.hex.validate.is_hex('hexcode')
    ```
 
 ## Parameters

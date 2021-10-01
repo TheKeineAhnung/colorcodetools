@@ -8,7 +8,7 @@
    ```
 2. ```python
    import colorcodetools
-   colortools.ral.validate.is_ral(ralcode)
+   colorcodetools.ral.validate.is_ral(ralcode)
    ```
 
 ## Parameters

@@ -8,7 +8,7 @@
    ```
 2. ```python
    import colorcodetools
-   colortools.rgb.invert.invert_single_rgb(r/g/b)
+   colorcodetools.rgb.invert.invert_single_rgb(r/g/b)
    ```
 
 ## Parameters
