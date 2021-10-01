@@ -1,6 +1,6 @@
 # colorcodetools
 
-![PyPI - Downloads](https://img.shields.io/pypi/dd/colorcodetools?style=flat-square) ![License](https://img.shields.io/github/license/TheKeineAhnung/colorcodetools?style=flat-square) 
+![PyPI - Downloads](https://img.shields.io/pypi/dw/colorcodetools?style=flat-square) ![License](https://img.shields.io/github/license/TheKeineAhnung/colorcodetools?style=flat-square) 
 ![PyPI](https://img.shields.io/pypi/v/colorcodetools?style=flat-square)
 
 ## What is colorcodetools?
