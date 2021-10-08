@@ -8,7 +8,7 @@
    ```
 2. ```python
    import colorcodetools
-   colortools.rgb.validate.is_single_rgb(r/g/b)
+   colorcodetools.rgb.validate.is_single_rgb(r/g/b)
    ```
 
 ## Parameters
