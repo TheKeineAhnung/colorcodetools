@@ -2,9 +2,10 @@ from colorcodetools.cymk.validate import is_cymk, is_single_cymk
 from typing import Union
 from colorcodetools.cymk.config import config
 
+
 def invert_cymk(cymk: str) -> Union[bool, str]:
-    check_hex: bool = is_cymk(cymk=cymk)
-    if not check_hex:
+    check_cymk: bool = is_cymk(cymk=cymk)
+    if not check_cymk:
         return False
     config_data = config()
     inverted_cymk: str = ''
@@ -17,6 +18,7 @@ def invert_cymk(cymk: str) -> Union[bool, str]:
         else:
             inverted_cymk += config_data[e.lower()]
     return inverted_cymk
+
 
 def invert_single_cymk(cymk: int) -> Union[bool, int]:
     check_cymk: bool = is_single_cymk(cymk)
