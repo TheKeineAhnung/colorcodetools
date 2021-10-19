@@ -4,11 +4,11 @@
 
 1. ```python
    from colorcodetools.cmyk.validate import is_single_cmyk
-   is_single_cmyk(c/y/m/k)
+   is_single_cmyk(c/m/y/k)
    ```
 2. ```python
    import colorcodetools
-   colorcodetools.cmyk.validate.is_single_cmyk(c/y/m/k)
+   colorcodetools.cmyk.validate.is_single_cmyk(c/m/y/k)
    ```
 
 ## Parameters
