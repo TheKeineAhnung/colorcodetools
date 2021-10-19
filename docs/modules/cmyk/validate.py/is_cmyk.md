@@ -1,4 +1,4 @@
-# is_cymk()
+# is_cmyk()
 
 ## How to use
 
@@ -15,8 +15,8 @@
 
 1. Required parameters:
 
-   - cymk:  
-      Enter cymk code which should be inverted.
+   - cmyk:  
+      Enter cmyk code which should be inverted.
      - `type: string`
      - `default: None`
      - `example: '100/50/0/45'`
