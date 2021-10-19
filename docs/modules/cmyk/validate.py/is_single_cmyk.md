@@ -1,22 +1,22 @@
-# is_single_cymk()
+# is_single_cmyk()
 
 ## How to use
 
 1. ```python
-   from colorcodetools.cymk.validate import is_single_cymk
-   is_single_cymk(c/y/m/k)
+   from colorcodetools.cmyk.validate import is_single_cmyk
+   is_single_cmyk(c/y/m/k)
    ```
 2. ```python
    import colorcodetools
-   colorcodetools.cymk.validate.is_single_cymk(c/y/m/k)
+   colorcodetools.cmyk.validate.is_single_cmyk(c/y/m/k)
    ```
 
 ## Parameters
 
 1. Required parameters:
 
-   - cymk:  
-      Enter a single cymk code part.
+   - cmyk:  
+      Enter a single cmyk code part.
      - `type: int`
      - `default: None`
      - `example: 25`
