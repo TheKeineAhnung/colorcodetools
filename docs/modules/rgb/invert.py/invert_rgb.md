@@ -31,7 +31,7 @@
      - `example: 0.5`
 
    - prefix:  
-     Decide if the inverted hexcode should have a 'rgb' respectively 'rgba' prefix.
+     Decide if the inverted rgbcode should have a 'rgb' respectively 'rgba' prefix.
      - `type: boolean`
      - `default: True`
 
