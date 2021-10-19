@@ -2,6 +2,7 @@ from colorcodetools.rgb.validate import is_rgb, is_single_rgb
 from typing import Union
 from colorcodetools.rgb.config import config
 
+
 def invert_rgb(rgb: str, a: float = 1.0, prefix: bool = True) -> Union[bool, str]:
     check_rgb: bool = is_rgb(rgb, a)
     if not check_rgb:
@@ -30,6 +31,7 @@ def invert_rgb(rgb: str, a: float = 1.0, prefix: bool = True) -> Union[bool, str
             inverted_rgb += config_data[e.strip()] + ", "
         inverted_rgb += str(a) + ")"
     return inverted_rgb
+
 
 def invert_single_rgb(rgb: int) -> Union[bool, int]:
     check_rgb: bool = is_single_rgb(rgb)

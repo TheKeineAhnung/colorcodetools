@@ -91,6 +91,6 @@ class RgbToCymk:
         m = (m - min_cmy) / (1 - min_cmy)
         y = (y - min_cmy) / (1 - min_cmy)
         k = min_cmy
-        inverted_rgb: str = f"{int(c * cymk_scale)}, {int(m * cymk_scale)}, {int(y * cymk_scale)}, {int(k * cymk_scale)}"
+        inverted_rgb: str = f"{int(c * cymk_scale)}, {int(m * cymk_scale)}, {int(y * cymk_scale)}, " \
+                            f"{int(k * cymk_scale)}"
         return inverted_rgb
-
