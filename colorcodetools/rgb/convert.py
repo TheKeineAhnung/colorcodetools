@@ -94,8 +94,3 @@ class RgbToCymk:
         inverted_rgb: str = f"{int(c * cymk_scale)}, {int(m * cymk_scale)}, {int(y * cymk_scale)}, {int(k * cymk_scale)}"
         return inverted_rgb
 
-
-invert = RgbToCymk()
-print(invert.rgb_to_cymk("(134, 128, 76)"))
-invert2 = RgbToHex()
-print(invert2.rgb_to_hex("(134, 128, 76)"))
