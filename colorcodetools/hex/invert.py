@@ -2,6 +2,7 @@ from colorcodetools.hex.validate import is_hex
 from typing import Union
 from colorcodetools.hex.config import config
 
+
 def invert_hex(hexcode: str, prefix: bool = True) -> Union[bool, str]:
     check_hex: bool = is_hex(hexcode=hexcode)
     if not check_hex:

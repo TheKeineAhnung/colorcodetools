@@ -14,6 +14,7 @@ def is_cmyk(cmyk: str) -> bool:
             return False
     return True
 
+
 def is_single_cmyk(cmyk: int) -> bool:
     if 100 >= cmyk >= 0:
         return True
