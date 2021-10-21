@@ -14,9 +14,14 @@
       Description
      - `type: Show type`
      - `default: Has it a default value`
+     - `example: Add example` (Optional!)
 
 2. Optional parameters
    - Name:  
       Description
      - `type: Show type`
      - `default: Has it a default value`
+
+## Return value
+
+- `type: boolean or string`
