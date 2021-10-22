@@ -1,3 +1,6 @@
+from string import punctuation
+
+
 def is_hex(hexcode: str) -> bool:
     if hexcode.startswith('#'):
         hex_check: str = hexcode.replace('#', '')
@@ -6,7 +9,7 @@ def is_hex(hexcode: str) -> bool:
     if len(hex_check) != 8 and len(hex_check) != 6 and len(hex_check) != 3:
         return False
     for e in list(hex_check):
-        if e >= "g":
+        if e >= "g" or e in punctuation:
             return False
     return True
 
