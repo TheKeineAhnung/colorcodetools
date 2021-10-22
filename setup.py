@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='colorcodetools',
-    version='0.2.0',
+    version='0.2.1',
     author='Keine Ahnung',
     author_email='kontakt@keineahnung.eu',
     description='Some powerful color tools',
@@ -17,7 +17,7 @@ setuptools.setup(
     },
     license='LICENSE',
     classifiers=(
-        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.6",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ),
