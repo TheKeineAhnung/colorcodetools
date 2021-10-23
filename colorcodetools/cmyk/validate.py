@@ -1,9 +1,9 @@
-def is_cymk(cymk: str) -> bool:
+def is_cmyk(cmyk: str) -> bool:
     try:
-        cymk_split = cymk.split("/")
+        cmyk_split = cmyk.split("/")
     except:
         return False
-    for e in cymk_split:
+    for e in cmyk_split:
         try:
             int(e)
         except:
@@ -14,8 +14,9 @@ def is_cymk(cymk: str) -> bool:
             return False
     return True
 
-def is_single_cymk(cymk: int) -> bool:
-    if 100 >= cymk >= 0:
+
+def is_single_cmyk(cmyk: int) -> bool:
+    if 100 >= cmyk >= 0:
         return True
     else:
         return False
