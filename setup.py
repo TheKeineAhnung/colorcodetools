@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name='colorcodetools',
-    version='0.2.1',
+    version='0.3.0',
     author='Keine Ahnung',
     author_email='kontakt@keineahnung.eu',
     description='Some powerful color tools',
